@@ -20,7 +20,9 @@ if (path != null && path != "")
 
     foreach (var file in listImages)
     {
-        Console.WriteLine(file);
+        Console.WriteLine(file.Split("\\").Last());
         Console.WriteLine(" ");
     }
 }
+
+Console.ReadKey();
