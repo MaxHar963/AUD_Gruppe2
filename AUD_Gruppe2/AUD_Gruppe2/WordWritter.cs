@@ -60,7 +60,7 @@ namespace AUD_Gruppe2
             float _unitsOnPage = 0;
 
 
-
+            int index = 1;
             foreach (string pathItem in path)
             {
                 /*
@@ -86,13 +86,16 @@ namespace AUD_Gruppe2
                 _unitsOnPage += lastHeight;
                 Console.WriteLine("Height of Picture : " + _counter + " : " + lastHeight);
                 */
-                string imgPath1 = $"{Environment.CurrentDirectory}\\{pathItem}";
+                //string imgPath1 = $"{Environment.CurrentDirectory}\\{pathItem}";
                 var paragraph = wordDoc.Paragraphs.Add();
                 paragraph.Alignment = WdParagraphAlignment.wdAlignParagraphDistribute;
                 paragraph.Format.Alignment = WdParagraphAlignment.wdAlignParagraphLeft;
-                paragraph.Range.InlineShapes.AddPicture(imgPath1);
+                //paragraph.Range.InlineShapes.AddPicture(imgPath1);
+                paragraph.Range.InlineShapes.AddPicture(pathItem);
+                var paragraph2 = wordDoc.Paragraphs.Add();
+                paragraph2.Range.Text = "Bild: "+index+"\r\r\r\r";
                 Console.WriteLine("Pageindex of Picture : " + wordDoc.Paragraphs.Count + " : " + _counter);
-
+                index++;
             }
         }
 

@@ -15,3 +15,4 @@ C:\Users\43676\Desktop\Gabriel\HtlGrieskirchen\Jahr4\AUD\Projekt\AUD_Gruppe2\AUD
 C:\Users\43676\Desktop\Gabriel\HtlGrieskirchen\Jahr4\AUD\Projekt\AUD_Gruppe2\AUD_Gruppe2\AUD_Gruppe2\obj\Debug\net6.0\ref\AUD_Gruppe2.dll
 C:\Users\43676\Desktop\Gabriel\HtlGrieskirchen\Jahr4\AUD\Projekt\AUD_Gruppe2\AUD_Gruppe2\AUD_Gruppe2\obj\Debug\net6.0\AUD_Gruppe2.pdb
 C:\Users\43676\Desktop\Gabriel\HtlGrieskirchen\Jahr4\AUD\Projekt\AUD_Gruppe2\AUD_Gruppe2\AUD_Gruppe2\obj\Debug\net6.0\AUD_Gruppe2.genruntimeconfig.cache
+C:\Users\43676\Desktop\Gabriel\HtlGrieskirchen\Jahr4\AUD\Projekt\AUD_Gruppe2\AUD_Gruppe2\AUD_Gruppe2\obj\Debug\net6.0\AUD_Gruppe2.csproj.AssemblyReference.cache

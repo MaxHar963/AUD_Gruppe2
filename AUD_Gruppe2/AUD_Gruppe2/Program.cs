@@ -1,4 +1,8 @@
-﻿List<string> listImages = new List<string>();
+﻿
+
+using AUD_Gruppe2;
+
+List<string> listImages = new List<string>();
 string[] files;
 
 Console.WriteLine("Path to Picture-Folder:");
@@ -20,9 +24,17 @@ if (path != null && path != "")
 
     foreach (var file in listImages)
     {
-        Console.WriteLine(file.Split("\\").Last());
+        //Console.WriteLine(file.Split("\\").Last());
+        Console.WriteLine(file);
         Console.WriteLine(" ");
     }
 }
 
-Console.ReadKey();
+Console.WriteLine("Hello, World!");
+WordWritter wordWriter = new WordWritter();
+//wordWriter.AddPicture("picure.jpg");
+wordWriter.AddPictures(listImages);
+
+Console.WriteLine("Filename:");
+string filename=Console.ReadLine();
+wordWriter.SaveToFile(filename);
